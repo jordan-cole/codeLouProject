@@ -1,0 +1,6 @@
+<img class='headerImg' src='pictures\TRL_Logo-2.1smaller.png'>
+
+<a href='Home.html'>HOME</a>
+<a href='Signup.html'>SIGNUP</a>
+<a href='About.html'>ABOUT</a>
+<a href='Contact.html'>CONTACT</a>

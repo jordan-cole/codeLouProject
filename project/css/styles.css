@@ -4,13 +4,13 @@ BASE ELEMENT STYLES
 html {
 	background: linear-gradient( #023005, transparent), url(https://images.pexels.com/photos/149131/pexels-photo-149131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 	 no-repeat center center fixed; 
-  	background-size: cover;
+	background-size: cover;
+	box-sizing: border-box;  
 }
 
 .flexHeader {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	background-color: #79060D;
 	border: solid #866338 20px;
 	box-sizing: border-box;
@@ -18,12 +18,16 @@ html {
 
 .headerImg {
 	max-height: 100%;
+	border: black 1px solid;
 }
 
 .troopName {
-	flex: 1;
 	font-family: 'Sura', serif;
 	font: 10em #ba272f;
+}
+
+nav a {
+	background: rgba(216, 193, 161, 0.774);
 }
 
 .welcome {
@@ -43,9 +47,12 @@ html {
 	margin: auto;
 }
 
+.yourInfo {
+	font-family: 'Roboto Bold', sans-serif  #79060D;
+	font-size: 2em;
+}
 span {
 	font-family: 'Roboto Bold', sans-serif;
-	font: 30px #ffffff;
 }
 
 input {
@@ -59,9 +66,12 @@ input {
   	border-bottom: 3px solid #79060D;
 }
 
-#placeholder {
+.placeholder {
 	font-family: 'Roboto Bold', sans-serif;
 	font: 4em #79060D;
+}
+
+footer {
 }
 
 .clearfix::after {
