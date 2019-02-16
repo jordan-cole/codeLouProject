@@ -1,32 +1,29 @@
 /* -----------------------------------------------------------
 BASE ELEMENT STYLES
 ------------------------------------------------------------*/
-* {
-box-sizing: border-box;
-}
-
 html {
 	background: linear-gradient( #023005, transparent), url(https://images.pexels.com/photos/149131/pexels-photo-149131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 	 no-repeat center center fixed; 
   	background-size: cover;
 }
 
-header {
+.flexHeader {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	background-color: #79060D;
-	border: solid #866338 10px;
+	border: solid #866338 20px;
+	box-sizing: border-box;
 }
 
-.header_img {
-	width: 80%;
-	display: block;
-	margin: auto;
-	padding: -25px 0 -25px 0;
+.headerImg {
+	max-height: 100%;
 }
 
-header ul a {
-	display: block;
-	margin: auto;
-	text-align: center;
+.troopName {
+	flex: 1;
+	font-family: 'Sura', serif;
+	font: 10em #ba272f;
 }
 
 .welcome {
@@ -35,14 +32,6 @@ header ul a {
 	text-align: center;
 	display: block;
 }
-
-/*form {
-	background-color: rgb(172, 143, 101, 75%);
-	width: 80%;
-	padding: 5px;
-	margin: auto;
-	border-radius: 5px 5px 5px 5px;
-}*/
 
 .signupbox {
 	display: flex;
