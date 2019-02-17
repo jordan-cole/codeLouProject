@@ -8,11 +8,27 @@ html {
 	box-sizing: border-box;  
 }
 
+.headerFlex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	width: 80%;
+	margin: auto;
+}
+
 .headerImg {
 	display: block;
 	margin: auto;
 	width: 100%;
 	height: auto;
+}
+
+.fas {
+	color: #ba272f;
+	font-size: 42px;
+	text-shadow: 2px 2px 5px #6c152b;
 }
 
 .troopName {
@@ -22,7 +38,7 @@ html {
 	font-family: 'Sura', serif;
 	font-size: 3em;
 	color: #ba272f;
-
+	text-shadow: 2px 2px 5px #6c152b;
 }
 
 nav a {
