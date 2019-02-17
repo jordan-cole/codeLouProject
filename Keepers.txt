@@ -1,3 +1,10 @@
+.flexHeader {
+	background-color: #79060D;
+	border: solid #866338 20px;
+	box-sizing: border-box;
+}
+
+
 <img class='headerImg' src='pictures\TRL_Logo-2.1smaller.png'>
 
 <a href='Home.html'>HOME</a>

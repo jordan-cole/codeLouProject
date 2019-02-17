@@ -8,22 +8,21 @@ html {
 	box-sizing: border-box;  
 }
 
-.flexHeader {
-	display: flex;
-	justify-content: space-around;
-	background-color: #79060D;
-	border: solid #866338 20px;
-	box-sizing: border-box;
-}
-
 .headerImg {
-	max-height: 100%;
-	border: black 1px solid;
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: auto;
 }
 
 .troopName {
+	display: block;
+	margin: 0px -20px 10px 0px;
+	text-align: center;
 	font-family: 'Sura', serif;
-	font: 10em #ba272f;
+	font-size: 3em;
+	color: #ba272f;
+
 }
 
 nav a {
@@ -48,8 +47,9 @@ nav a {
 }
 
 .yourInfo {
-	font-family: 'Roboto Bold', sans-serif  #79060D;
+	font-family: 'Roboto Bold', sans-serif;
 	font-size: 2em;
+	color: #79060d;
 }
 span {
 	font-family: 'Roboto Bold', sans-serif;
