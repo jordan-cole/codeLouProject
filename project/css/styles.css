@@ -46,16 +46,6 @@ nav a {
 	display: block;
 }
 
-.signupbox {
-	display: flex;
-	flex-direction: column;
-	background-color: rgba(216, 193, 161, 0.774);
-	border-radius: 10px;
-	width: 80%;
-	padding: 5px;
-	margin: auto;
-}
-
 .yourInfo {
 	font-family: 'Roboto Bold', sans-serif;
 	font-size: 2em;
