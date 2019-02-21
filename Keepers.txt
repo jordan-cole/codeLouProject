@@ -11,3 +11,13 @@
 <a href='Signup.html'>SIGNUP</a>
 <a href='About.html'>ABOUT</a>
 <a href='Contact.html'>CONTACT</a>
+
+
+<h1 class='yourInfo'>Your Info</h1>
+	<ul>
+		<input type='text' placeholder=firstname name='firstname'><br>
+		<input type='text' placeholder=lastname name='firstname'><br>
+		<input type='text' placeholder=address name='firstname'><br>
+		<input type='text' placeholder=phone name='firstname'><br>
+		<input type='text' placeholder=email name='firstname'><br>
+	</ul>
