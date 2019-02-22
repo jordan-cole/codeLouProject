@@ -2,6 +2,13 @@
 BASE ELEMENT STYLES
 ------------------------------------------------------------*/
 
+body {
+	background: linear-gradient( #023005, transparent), url(https://images.pexels.com/photos/149131/pexels-photo-149131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+	 no-repeat center center fixed; 
+	background-size: cover;
+	box-sizing: border-box;  
+}
+
 .headerFlex {
 	display: flex;
 	flex-direction: row;
@@ -55,7 +62,7 @@ span {
 	font-family: 'Roboto Bold', sans-serif;
 }
 
-input {
+/* input {
 	display: block;
 	height: 5em;
 	margin: auto;
@@ -64,12 +71,12 @@ input {
 	background: none;
 	border: none;
   	border-bottom: 3px solid #79060D;
-}
+} */
 
-.placeholder {
+/* .placeholder {
 	font-family: 'Roboto Bold', sans-serif;
 	font: 4em #79060D;
-}
+/* } */
 
 footer {
 }
