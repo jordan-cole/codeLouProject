@@ -21,3 +21,6 @@
 		<input type='text' placeholder=phone name='firstname'><br>
 		<input type='text' placeholder=email name='firstname'><br>
 	</ul>
+
+
+<link rel='stylesheet' href='css/background.css'>
