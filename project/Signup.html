@@ -21,44 +21,47 @@
 		<nav>
 			<ul class="nav nav-pills nav-fill">
 				<li class="nav-item">
-					<a class="nav-link active" href="Home.html">Home</a>
+					<a class="nav-link active" id='navbutton' href="Home.html">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="About.html">About</a>
+					<a class="nav-link" id='navbutton' href="About.html">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="Contact.html">Contact</a>
+					<a class="nav-link" id='navbutton' href="Contact.html">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="Signup.html" tabindex="-1" aria-disabled="true">Signup</a>
+					<a class="nav-link" id='navbutton' href="Signup.html" tabindex="-1" aria-disabled="true">Signup</a>
 				</li>
 			</ul>
 		</nav>
-
-		<form>
-			<div class="form-group row">
-			  	<label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">First Name</label>
-			  	<div class="col-sm-10">
-				<input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
-				</div>
-			</div>
-		</form>
 		
 		<form>
 			<div class="input-group mb-3">
 				<div class="input-group-prepend">
-					<span class="input-group-text">@</span>
+					<span class="input-group-text">First Name</span>
 				</div>
-				<input type="text" class="form-control" placeholder="First Name">
-				<input type="text" class="form-control" placeholder="Last Name">
-				<input type="text" class="form-control" placeholder="Phone Number">
-				<input type="text" class="form-control" placeholder="Email">
+				<input type="text" class="form-control" placeholder="">
+				<div class="input-group-prepend">
+					<span class="input-group-text">Last Name</span>
+				</div>
+				<input type="tel" class="form-control" placeholder="">
+				<div class="input-group-prepend">
+					<span class="input-group-text">Phone Number</span>
+				</div>
+				<input type="email" class="form-control" placeholder="">
+				<div class="input-group-prepend">
+					<span class="input-group-text">Email</span>
+				</div>
+				<input type="text" class="form-control" placeholder="">
 			</div>
 		</form>
 		
-		<footer>
-			<p>2019 Family FEWD Design</p>
-		</footer>
+		<div id="footer">
+			<div class="container">
+				<p class="footer-block">2019 Family FEWD Design</p>
+			</div>
+		</div>
+		
 		<script src='js/scripts.js'></script>
 		<script src='js/jquery-3.3.1.min.js'></script>
 	</body>

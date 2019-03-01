@@ -43,26 +43,22 @@ body {
 }
 
 nav a {
-	background: rgba(216, 193, 161, 0.774);
+	background: rgba(216, 193, 161, 0.75);
 }
 
-.welcome {
+/* .welcome {
 	font-family: 'Sura', serif;
 	font: 2em #ffffff;
 	text-align: center;
 	display: block;
-}
+} */
 
-.yourInfo {
+/* span {
 	font-family: 'Roboto Bold', sans-serif;
-	font-size: 2em;
-	color: #79060d;
-}
-span {
-	font-family: 'Roboto Bold', sans-serif;
-}
+} */
 
-/* input {
+/* 
+input {
 	display: block;
 	height: 5em;
 	margin: auto;
@@ -73,13 +69,11 @@ span {
   	border-bottom: 3px solid #79060D;
 } */
 
-/* .placeholder {
+/* 
+.placeholder {
 	font-family: 'Roboto Bold', sans-serif;
 	font: 4em #79060D;
-/* } */
-
-footer {
-}
+} */
 
 .clearfix::after {
 	content: "";
