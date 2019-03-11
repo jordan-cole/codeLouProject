@@ -22,15 +22,16 @@ body {
 .headerImg {
 	display: block;
 	margin: auto;
-	width: 100%;
+	width: 95%;
 	height: auto;
+	padding: 10px 10px 10px 0;
 }
 
-.fas {
+/* .fas {
 	color: #ba272f;
 	font-size: 42px;
 	text-shadow: 2px 2px 5px #6c152b;
-}
+} */
 
 .troopName {
 	display: block;
@@ -39,15 +40,19 @@ body {
 	font-family: 'Sura', serif;
 	font-size: 3em;
 	color: #ba272f;
-	text-shadow: 2px 2px 5px #6c152b;
+	text-shadow: 2px 2px 5px #6a152a;
 }
 
 .tranbg {
 	background: rgba(216, 193, 161, 0.75);
 }
 
-#navbutton {
-	color: 
+.bodyText {
+	color: #fff5df;
+}
+
+.topNavPillborder {
+	border-radius: 10px 10px 0 0;
 }
 
 /* .welcome {
@@ -73,11 +78,11 @@ input {
   	border-bottom: 3px solid #79060D;
 } */
 
-/* 
+
 .placeholder {
 	font-family: 'Roboto Bold', sans-serif;
 	font: 4em #79060D;
-} */
+}
 
 .clearfix::after {
 	content: "";
