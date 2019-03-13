@@ -3,71 +3,78 @@
 	<head>
 		<meta charset='utf-8'>
 		<title>Signup with TLUSA Troop82</title>
-		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Sura:700'>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Sura:700|Homemade+Apple|Inconsolata'>
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' crossorigin='anonymous'>
+		<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
 		<link rel='stylesheet' href='css/styles.css'>
 	</head>
 
 	<body>
 		<header>
-			<img class="headerImg" src="pictures\TRL_Logo-2.1smaller.png" alt="Trail Life U.S.A. Logo">
-			<span class='troopName mx-auto'>Troop 82 Shelbyville, KY</span>
+			<img class='headerImg' src='pictures\TRL_Logo-2.1smaller.png' alt='Trail Life U.S.A. Logo'>
+			<span class='troopName d-flex justify-content-center'>Troop 82 Shelbyville, KY</span>
 		</header>
 
 		<nav>
-			<ul class="nav flex-column nav-pills nav-fill tranbg mx-auto" style='max-width: 90%;'>
-				<li class="nav-item border border-light rounded-top">
-					<a class="nav-link navText" id='navbutton' href="Home.html">Home</a>
+			<ul class='nav flex-column nav-pills nav-fill tranbg mx-auto' style='max-width: 90%;'>
+				<li class='nav-item border border-light rounded-top'>
+					<a class='nav-link navText' id='navbutton' href='Home.html'>Home</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link border border-light navText" id='navbutton' href="About.html">About</a>
+				<li class='nav-item'>
+					<a class='nav-link border border-light navText' id='navbutton' href='About.html'>About</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link border border-light navText" id='navbutton' href="Contact.html">Contact</a>
+				<li class='nav-item'>
+					<a class='nav-link border border-light navText' id='navbutton' href='Contact.html'>Contact</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link border border-light navText" id='navbutton' href="Signup.html" tabindex="-1" aria-disabled="true">Signup</a>
+				<li class='nav-item'>
+					<a class='nav-link border border-light navText' id='navbutton' href='Signup.html' tabindex='-1' aria-disabled='true'>Signup</a>
 				</li>
 			</ul>
 		</nav>
+
+		<div class="card text-center mx-auto" style="width: 70%;">
+			<div class="card-body">
+				<p class="card-text quote">Life without adventure would be deadly dull.</p>
+				<h5 class="card-title quote">~Baden Powell</h5>
+			</div>
+		</div>
 		
 		<form>
-			<div class="card mb-3 mx-auto tranbg" style="max-width: 90%;">
-				<div class="card-header border-red cardHeader">Please give us some info...</div>
-					<div class="card-body">
+			<div class='card mb-3 mx-auto tranbg' style='max-width: 90%;'>
+				<div class='card-header border-red cardHeader'>Please give us some info...</div>
+					<div class='card-body'>
 
-						<div class="input-group mb-3">
-							<input type="text" class="form-control" placeholder='Firstname'>
+						<div class='input-group-lg mb-3'>
+							<input type='text inputText' class='form-control' placeholder='Firstname'>
 						</div>
 
-						<div class="input-group mb-3">
-							<input type="text" class="form-control" placeholder='Lastname'>
+						<div class='input-group-lg mb-3'>
+							<input type='text' class='form-control' placeholder='Lastname'>
 						</div>
 
-						<div class="input-group mb-3">
-							<input type="tel" class="form-control" placeholder='Phone'>
+						<div class='input-group-lg mb-3'>
+							<input type='tel' class='form-control' placeholder='Phone'>
 						</div>
 
-						<div class="input-group mb-3">
-							<input type="email" class="form-control" placeholder='Email'>
+						<div class='input-group-lg mb-3'>
+							<input type='email' class='form-control' placeholder='Email'>
 						</div>
 						
-						<div class="input-group mb-3">
-							<input type="text" class="form-control" placeholder='Trailman Name'>
+						<div class='input-group-lg mb-3'>
+							<input type='text' class='form-control' placeholder='Trailman Name'>
 						</div>
 						
-						<div class="input-group mb-3">
-							<input type="text" class="form-control" placeholder='Trailman Age'>
+						<div class='input-group-lg mb-3'>
+							<input type='text' class='form-control' placeholder='Trailman Age'>
 						</div>
 					</div>
-				<div class="card-footer border-red cardHeader">Thank You!</div>
+				<div class='card-footer border-red cardHeader'>Thank You!</div>
 			</div>
 		</form>
 		
-		<div id="footer">
-			<div class="container">
-				<p class="footer-block">2019 Family FEWD Design</p>
+		<div id='footer'>
+			<div class='container'>
+				<p class='footer-block'>2019 Family FEWD Design</p>
 			</div>
 		</div>
 		
