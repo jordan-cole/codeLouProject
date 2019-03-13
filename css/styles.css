@@ -43,8 +43,26 @@ body {
 	text-shadow: 2px 2px 5px #6a152a;
 }
 
+.navText {
+	font-family: 'Roboto Bold', sans-serif;
+	font-size: 4em;
+	color: whitesmoke;
+}
+
+nav {
+	border-radius: 10px;
+}
+
+form {
+	margin-top: 30px;
+}
+
 .tranbg {
 	background: rgba(216, 193, 161, 0.75);
+}
+
+.cardHeader {
+	background-color: rgba(126, 113, 95, 0.55);
 }
 
 .bodyText {
