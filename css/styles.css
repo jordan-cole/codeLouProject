@@ -98,39 +98,7 @@ form {
 	border-radius: 10px 10px 0 0;
 }
 
-/* .welcome {
-	font-family: 'Sura', serif;
-	font: 2em #ffffff;
-	text-align: center;
-	display: block;
-} */
-
-/* span {
-	font-family: 'Roboto Bold', sans-serif;
-} */
-
-/* 
-input {
-	display: block;
-	height: 5em;
-	margin: auto;
-	padding-inline-start: none;
-	width: 80%;
-	background: none;
-	border: none;
-  	border-bottom: 3px solid #79060D;
-} */
-
-
 .placeholder {
 	font-family: 'Roboto Bold', sans-serif;
 	font: 4em #79060D;
 }
-
-.clearfix::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
-
-
