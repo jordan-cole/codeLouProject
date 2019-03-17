@@ -1,13 +1,19 @@
 /* -----------------------------------------------------------
-BASE ELEMENT STYLES
+BACKGROUND STYLING
+--------------------------------------------------------------
 ------------------------------------------------------------*/
 
 body {
-	background: linear-gradient( #023005, transparent), url(https://images.pexels.com/photos/149131/pexels-photo-149131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+	background: linear-gradient( rgb(2, 48, 5), transparent), url(https://images.pexels.com/photos/149131/pexels-photo-149131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 	 no-repeat center center fixed; 
 	background-size: cover;
 	box-sizing: border-box;  
 }
+
+/* -----------------------------------------------------------
+HEADER STYLING
+--------------------------------------------------------------
+------------------------------------------------------------*/
 
 .headerFlex {
 	display: flex;
@@ -21,38 +27,45 @@ body {
 
 .headerImg {
 	display: block;
-	margin: auto;
 	width: 95%;
 	height: auto;
 	padding: 15px 10px 10px 0;
 }
-
-/* .fas {
-	color: #ba272f;
-	font-size: 42px;
-	text-shadow: 2px 2px 5px #6c152b;
-} */
 
 .troopName {
 	display: block;
 	margin: 0px -20px 10px 0px;
 	text-align: center;
 	font-family: 'Sura', serif;
-	font-size: 3.5em;
-	color: #ba272f;
-	text-shadow: 2px 2px 5px #6a152a;
+	font-size: 4em;
+	color: rgb(186, 39, 47);
+	text-shadow: 2px 2px 5px rgb(106, 21, 42);
 }
+
+/* -----------------------------------------------------------
+NAV STYLING
+--------------------------------------------------------------
+------------------------------------------------------------*/
 
 .navText {
 	font-family: 'Vollkorn', serif;
 	font-size: 4em;
-	color: whitesmoke;
+	color: rgb(245, 245, 245);
 }
 
 nav {
 	border-radius: 10px;
 	margin-top: 30px;
 }
+
+.topNavPillborder {
+	border-radius: 10px 10px 0 0;
+}
+
+/* -----------------------------------------------------------
+QUOTE CARD STYLING
+--------------------------------------------------------------
+------------------------------------------------------------*/
 
 .card {
 	margin-top: 30px;
@@ -61,8 +74,8 @@ nav {
 
 #quote {
 	font-family: 'Homemade Apple', cursive !important;
-	background-color: #efe5d5;
-	color: #ba272f;
+	background-color: rgb(89, 60, 31, .75);
+	color: rgb(245, 245, 245);
 }
 
 .card-text {
@@ -73,8 +86,13 @@ nav {
 	font-size: 3rem;
 }
 
-form {
-	margin-top: 30px;
+/* -----------------------------------------------------------
+SIGNUP FORM STYLING
+--------------------------------------------------------------
+------------------------------------------------------------*/
+
+.cardHeader {
+	background-color: rgba(126, 113, 95, 0.55);
 }
 
 .inputText {
@@ -86,19 +104,6 @@ form {
 	background: rgba(216, 193, 161, 0.75);
 }
 
-.cardHeader {
-	background-color: rgba(126, 113, 95, 0.55);
-}
-
-.bodyText {
-	color: #fff5df;
-}
-
-.topNavPillborder {
-	border-radius: 10px 10px 0 0;
-}
-
-.placeholder {
-	font-family: 'Roboto Bold', sans-serif;
-	font: 4em #79060D;
+button {
+	color: rgb(186, 39, 47, 0.75);
 }
