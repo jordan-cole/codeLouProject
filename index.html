@@ -28,7 +28,7 @@
 						<a class='nav-link text' href='Contact.html'>Contact</a>
 					</li>
 					<li class='nav-item'>
-						<a class='nav-link text' href='Signup.html'>Signup</a>
+						<a class='nav-link text' href='index.html'>Signup</a>
 					</li>
 				</ul>
 			</nav>
@@ -36,14 +36,26 @@
 		
 		<div class='container'>
 			<div class='row'>
-				<div class="col card col-sm-12 border-danger text-center mx-auto" id='quote'>
+				<div class="col card col-sm-12 border-danger text-center mx-auto d-md-none" id='quote'>
 					<div class="card-body">
 						<p class="card-text quote">Life without adventure would be deadly&nbspdull.</p>
 						<h5 class="card-title quote">~Baden Powell</h5>
 					</div>
 				</div>
 
-				<div class="col card col-sm-12 tranbg mx-auto">
+				<div class="col col-md-3 col-lg-3 text-center mx-auto d-none d-md-inline" id='campfirePic'>
+					<div>
+						<img src="pictures\campfireTent.jpg" class="img-fluid" alt="Responsive image">
+					</div>
+				</div>
+
+				<div class="col col-sm-12 col-lg-3 text-center mx-auto d-none d-lg-inline" id='trailmanPic'>
+					<div>
+						<img src="pictures\trailman.png" class="img-fluid" alt="Responsive image">
+					</div>
+				</div>
+
+				<div class="col card col-sm-12 col-md-9 col-lg-3 tranbg mx-auto">
 					<div class="card-body">
 						<h4 class='text' id='formHeader'>Please give us some info:</h4>
 							
@@ -77,8 +89,10 @@
 			</div>
 		</div>
 
-		<footer class='mx-auto'>
-			<p class='text'>2019 Family FEWD Design</p>
+		<footer class='footer'>
+			<div class='container' style="max-width: 100%">
+				<p class='text mx-auto'>2019 Family FEWD Design, Shelbyville, Kentucky</p>
+			</div>
 		</footer>
 		
 		<script src='js/scripts.js'></script>
