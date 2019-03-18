@@ -3,11 +3,8 @@
 	<head>
 		<meta charset='utf-8'>
 		<title>Signup with TLUSA Troop82</title>
-		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Sura:700'>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn:900">
-		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Homemade+Apple'>
-		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Inconsolata'>
-		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' crossorigin='anonymous'>
+		<link type="text/css" rel="stylesheet" href="css/normalize.css" />
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Sura:700|Vollkorn:900|Homemade+Apple'>
 		<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
 		<link rel='stylesheet' href='css/styles.css'>
 	</head>
@@ -15,40 +12,40 @@
 	<body>
 		<header>
 			<img class='headerImg mx-auto' src='pictures\TRL_Logo-2.1smaller.png' alt='Trail Life U.S.A. Logo'>
-			<span class='troopName justify-content-center' id='name'>TROOP 82&nbsp&nbsp&nbspSHELBYVILLE, KY</span>
+			<span class='troopName justify-content-center mx-auto' id='name' max-width= 90%>TROOP 82&nbsp-&nbspSHELBYVILLE, KY</span>
 		</header>
 
 		<div class='container'>
 			<nav>
-				<ul class='nav flex-column nav-pills nav-fill rounded-top tranbg mx-auto' style='max-width: 60%;'>
+				<ul class='nav flex-column nav-pills nav-fill rounded-top rounded-bottom tranbg mx-auto' style='max-width: 60%;'>
 					<li class='nav-item'>
-						<a class='nav-link navText' href='Home.html'>Home</a>
+						<a class='nav-link text' href='Home.html'>Home</a>
 					</li>
 					<li class='nav-item'>
-						<a class='nav-link navText' href='About.html'>About</a>
+						<a class='nav-link text' href='About.html'>About</a>
 					</li>
 					<li class='nav-item'>
-						<a class='nav-link navText' href='Contact.html'>Contact</a>
+						<a class='nav-link text' href='Contact.html'>Contact</a>
 					</li>
 					<li class='nav-item'>
-						<a class='nav-link navText' href='Signup.html'>Signup</a>
+						<a class='nav-link text' href='Signup.html'>Signup</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
 		
 		<div class='container'>
-			<!-- <div class='row'> -->
-				<div class="card col-sm-12 col-md-0 border-danger text-center mx-auto" id='quote'>
+			<div class='row'>
+				<div class="col card col-sm-12 border-danger text-center mx-auto" id='quote'>
 					<div class="card-body">
 						<p class="card-text quote">Life without adventure would be deadly&nbspdull.</p>
 						<h5 class="card-title quote">~Baden Powell</h5>
 					</div>
 				</div>
 
-				<div class="card col-sm-12 col-md-6 mx-auto tranbg">
+				<div class="col card col-sm-12 tranbg mx-auto">
 					<div class="card-body">
-						<h5 class="card-header">Please give us some info:</h5>
+						<h4 class='text' id='formHeader'>Please give us some info:</h4>
 							
 							<div class='input-group-lg mb-3'>
 								<input type='text' class='form-control' placeholder='Firstname'>
@@ -74,11 +71,10 @@
 								<input type='text' class='form-control' placeholder='Trailman Age'>
 							</div>
 
-					  	<a href="#" class="btn btn-primary">Submit</a>
+					  	<a href="#" class="btn btn-primary text">Submit</a>
 					</div>
 				</div>
-				
-			<!-- </div> -->
+			</div>
 		</div>
 
 		<!-- <div id='footer'>

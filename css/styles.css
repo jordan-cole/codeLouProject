@@ -1,5 +1,5 @@
 /* -----------------------------------------------------------
-BACKGROUND STYLING
+BASE STYLING
 --------------------------------------------------------------
 ------------------------------------------------------------*/
 
@@ -9,6 +9,12 @@ body {
 	background-size: cover;
 	box-sizing: border-box;  
 }
+
+.text {
+	font-family: 'Vollkorn', serif;
+	color: rgb(245, 245, 245);
+}
+
 
 /* -----------------------------------------------------------
 HEADER STYLING
@@ -33,13 +39,14 @@ HEADER STYLING
 }
 
 .troopName {
-	display: block;
-	margin: 0px -20px 10px 0px;
+	display: flex;
+	margin-top: -20px;
+	margin-bottom: 10px;
 	text-align: center;
 	font-family: 'Sura', serif;
-	font-size: 4em;
+	font-size: 5em;
 	color: rgb(186, 39, 47);
-	text-shadow: 2px 2px 5px rgb(106, 21, 42);
+	/* text-shadow: 2px 2px 5px rgb(106, 21, 42); */
 }
 
 /* -----------------------------------------------------------
@@ -47,19 +54,14 @@ NAV STYLING
 --------------------------------------------------------------
 ------------------------------------------------------------*/
 
-.navText {
-	font-family: 'Vollkorn', serif;
-	font-size: 4em;
-	color: rgb(245, 245, 245);
-}
-
 nav {
 	border-radius: 10px;
 	margin-top: 30px;
 }
 
-.topNavPillborder {
-	border-radius: 10px 10px 0 0;
+.nav-link {
+	font-size: 4em;
+	text-shadow: 2px 2px 5px rgb(106, 21, 42);
 }
 
 /* -----------------------------------------------------------
@@ -76,6 +78,7 @@ QUOTE CARD STYLING
 	font-family: 'Homemade Apple', cursive !important;
 	background-color: rgb(89, 60, 31, .75);
 	color: rgb(245, 245, 245);
+	text-shadow: 2px 2px 5px rgb(106, 21, 42);
 }
 
 .card-text {
@@ -91,19 +94,23 @@ SIGNUP FORM STYLING
 --------------------------------------------------------------
 ------------------------------------------------------------*/
 
-.cardHeader {
-	background-color: rgba(126, 113, 95, 0.55);
-}
-
-.inputText {
-	font-family: 'Inconsolata', monospace;
-	font-size: 3px;
+#formHeader {
+	margin-bottom: 20px;
+	font-size: 2em;
+	text-shadow: 2px 2px 5px rgb(106, 21, 42);
 }
 
 .tranbg {
 	background: rgba(216, 193, 161, 0.75);
 }
 
-button {
-	color: rgb(186, 39, 47, 0.75);
+.btn {
+	border: none;
+}
+
+.btn-primary {
+	background: rgb(186, 39, 47, 0.75);
+	color: #ffffff;
+	font-size: 2em;
+	text-shadow: 2px 2px 5px rgb(106, 21, 42);
 }
