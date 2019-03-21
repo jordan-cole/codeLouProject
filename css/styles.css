@@ -15,6 +15,10 @@ body {
 	color: rgb(245, 245, 245);
 }
 
+.tranbg {
+	background: rgba(216, 193, 161, 0.75);
+}
+
 .footer {
 	display: block;
 	margin-top: 30px;
@@ -48,10 +52,6 @@ HEADER STYLING
 	margin-top: -20px;
 	margin-bottom: 10px;
 	text-align: center;
-	/* font-family: 'Sura', serif;
-	font-size: 92px;
-	color: rgb(186, 39, 47);
-	text-shadow: 2px 2px 5px rgb(106, 21, 42); */
 }
 
 /* -----------------------------------------------------------
@@ -62,6 +62,7 @@ NAV STYLING
 nav {
 	border-radius: 10px;
 	margin-top: 30px;
+	background: none;
 }
 
 .nav-link {
@@ -116,10 +117,6 @@ SIGNUP FORM STYLING
 	margin-bottom: 20px;
 	font-size: 2em;
 	text-shadow: 2px 2px 5px rgb(106, 21, 42);
-}
-
-.tranbg {
-	background: rgba(216, 193, 161, 0.75);
 }
 
 .btn {
