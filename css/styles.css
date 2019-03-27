@@ -73,11 +73,11 @@ nav {
 }
 
 .nav-link {
-	font-size: 4em;
+	font-size: 3em;
 }
 
 .icon {
-	font-size: 4em;
+	font-size: 2em;
 }
 
 /* -----------------------------------------------------------
@@ -138,4 +138,29 @@ SIGNUP FORM STYLING
 	color: #ffffff;
 	font-size: 2em;
 	text-shadow: 2px 2px 5px rgb(106, 21, 42);
+}
+
+/* -----------------------------------------------------------
+MEDIA QUERIES
+--------------------------------------------------------------
+------------------------------------------------------------*/
+
+@media (min-width: 578px) {
+	.nav-link {
+		font-size: 3em;
+	}
+	
+	.icon {
+		font-size: 2em;
+	}
+}
+
+@media (min-width: 793px) {
+	.nav-link {
+		font-size: 4em;
+	}
+	
+	.icon {
+		font-size: 3em;
+	}
 }
