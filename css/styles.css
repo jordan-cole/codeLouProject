@@ -12,7 +12,14 @@ body {
 
 .text {
 	font-family: 'Vollkorn', serif;
+}
+
+.color {
 	color: rgb(245, 245, 245);
+}
+
+.shadow {
+	text-shadow: 2px 2px 5px rgb(106, 21, 42);
 }
 
 .tranbg {
@@ -67,7 +74,10 @@ nav {
 
 .nav-link {
 	font-size: 4em;
-	text-shadow: 2px 2px 5px rgb(106, 21, 42);
+}
+
+.icon {
+	font-size: 4em;
 }
 
 /* -----------------------------------------------------------
@@ -96,8 +106,6 @@ QUOTE CARD STYLING
 #quote {
 	font-family: 'Homemade Apple', cursive !important;
 	background-color: rgb(89, 60, 31, .75);
-	color: rgb(245, 245, 245);
-	text-shadow: 2px 2px 5px rgb(106, 21, 42);
 }
 
 .card-text {
