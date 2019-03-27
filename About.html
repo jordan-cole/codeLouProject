@@ -2,49 +2,113 @@
 <html lang='en'>
 	<head>
 		<meta charset='utf-8'>
+		<meta name="viewport" content="width=device-width">
 		<title>Signup with TLUSA Troop82</title>
 		<link type="text/css" rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Sura:700|Vollkorn:900|Homemade+Apple'>
 		<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
 		<link rel='stylesheet' href='css/styles.css'>
 	</head>
 
 	<body>
+		
+<!-- header -->
 		<header>
 			<img class='headerImg mx-auto' src='pictures\TRL_Logo-2.1smaller.png' alt='Trail Life U.S.A. Logo'>
-			<!-- <div>
-				<span class='troopName justify-content-center mx-auto' id='name' max-width= 90%>TROOP 82&nbsp-&nbspSHELBYVILLE, KY</span>
-			</div>	 -->
 			<img class='headerImg troopName mx-auto' src='pictures\troopName.png'>
 		</header>
 
+<!-- nav -->
 		<div class='container'>
 			<nav>
-				<ul class='nav flex-column nav-pills nav-fill rounded-top rounded-bottom mx-auto' style='max-width: 60%;'>
-					<li class='nav-item'>
-						<a class='nav-link text' href='Home.html'>Home</a>
+				<ul class='nav flex-column nav-pills nav-fill align-items-end mx-auto' style='max-width: 60%;'>
+					<li class='nav-item row mx-auto align-items-center'>
+						<i class="fas fa-campground icon color shadow float-left"></i>
+						<a class='nav-link text color shadow' href='Home.html'>Home</a>
 					</li>
-					<li class='nav-item'>
-						<a class='nav-link text' href='About.html'>About</a>
+					<li class='nav-item row mx-auto align-items-center'>
+						<i class="fas fa-tree icon color shadow float-left"></i>
+						<a class='nav-link text color shadow' href='About.html'>About</a>
 					</li>
-					<li class='nav-item'>
-						<a class='nav-link text' href='Contact.html'>Contact</a>
+					<li class='nav-item row mx-auto align-items-center'>
+						<i class="far fa-compass icon color shadow float-left"></i>
+						<a class='nav-link text color shadow' href='Contact.html'>Contact</a>
 					</li>
-					<li class='nav-item'>
-						<a class='nav-link text' href='index.html'>Signup</a>
+					<li class='nav-item row mx-auto align-items-center'>
+						<i class="fas fa-feather-alt icon color shadow float-left"></i>
+						<a class='nav-link text color shadow' href='Signup.html'>Signup</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
+
+<!-- quote card -->
+		<div class='container'>
+			<div class="col card col-sm-12 border-danger text-center mx-auto d-md-none" id='quote'>
+				<div class="card-body">
+					<p class="card-text quote color">Life without adventure would be deadly&nbspdull.</p>
+					<h5 class="card-title quote color">~Baden Powell</h5>
+				</div>
+			</div>
+			
+<!-- imgs -->
+			<div class='row align-items-center'>
+				<div class="col col-sm-1 col-md-3 col-lg-2 d-none d-md-inline order-12 float-right cTent" id='campfirePic'>
+					<div>
+						<img src="pictures\campfireTent.jpg" class="img-fluid rounded" alt="Responsive image">
+					</div>
+				</div>
+
+				<div class="col col-lg-2 d-none d-lg-inline float-left bRope" id='trailmanPic'>
+					<div>
+						<img src="pictures\boyRope.jpg" class="img-fluid rounded" alt="Responsive image">
+					</div>
+				</div>
+
+<!-- signup form -->
+				<div class="col card mx-auto col-sm-12 col-md-9 col-lg-8 tranbg order-10">
+					<div class="card-body">
+						<h4 class='text color shadow' id='formHeader'>Please give us some info:</h4>
+							
+							<div class='input-group-lg mb-3'>
+								<input type='text' class='form-control' placeholder='First Name'>
+							</div>
+
+							<div class='input-group-lg mb-3'>
+								<input type='text' class='form-control' placeholder='Last Name'>
+							</div>
+
+							<div class='input-group-lg mb-3'>
+								<input type='tel' class='form-control' placeholder='Phone'>
+							</div>
+
+							<div class='input-group-lg mb-3'>
+								<input type='email' class='form-control' placeholder='Email'>
+							</div>
+							
+							<div class='input-group-lg mb-3'>
+								<input type='text' class='form-control' placeholder='Trailman Name'>
+							</div>
+							
+							<div class='input-group-lg mb-3'>
+								<input type='text' class='form-control' placeholder='Trailman Age'>
+							</div>
+
+						<a href="#" class="btn btn-primary text color shadow">Submit</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		
+<!-- footer -->
 		<footer class='footer'>
-			<div class='container'>
-				<p class='text mx-auto'>2019 Family FEWD Design, Shelbyville, Kentucky</p>
+			<div class='container' style="max-width: 100%">
+				<p class='text text-center color'>2019 Family FEWD Design, Shelbyville, Kentucky</p>
 			</div>
 		</footer>
 		
-		<script src='js/scripts.js'></script>
 		<script src='js/jquery-3.3.1.min.js'></script>
+		<script src='js/scripts.js'></script>
 	</body>
 </html>
-
