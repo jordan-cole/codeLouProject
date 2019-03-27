@@ -1,5 +1,5 @@
 // Some animation to enhance your visit to my site
 
 
-$('.headerImg').hide();
-$('.headerImg').fadeIn(1000);
+$('#fade').hide();
+$('#fade').fadeIn(2000);
