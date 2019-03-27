@@ -2,4 +2,4 @@
 
 
 $('#fade').hide();
-$('#fade').fadeIn(2000);
+$('#fade').fadeIn(1500);
