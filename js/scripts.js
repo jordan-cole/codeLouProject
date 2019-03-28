@@ -1,5 +1,6 @@
 // Some animation to enhance your visit to my site
 
-
-$('#fade').hide();
-$('#fade').fadeIn(1500);
+$( document ).ready(function() {
+    $('#fade').hide();
+    $('#fade').fadeIn(2000);
+});
